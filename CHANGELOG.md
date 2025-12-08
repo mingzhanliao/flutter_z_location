@@ -1,3 +1,6 @@
+## 0.1.0
+* Rename package to flutter_z_location_mz.
+
 ## 0.0.9
 * 获取经纬度增加定位精度参数 [issues#2](https://github.com/zenganiu/flutter_z_location/issues/2)
 

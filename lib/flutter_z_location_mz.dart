@@ -1,6 +1,5 @@
-library flutter_z_location;
+library flutter_z_location_mz;
 
-export 'flutter_z_location.dart';
 export 'gps_entity.dart';
 export 'common_util.dart';
 export 'geocode_entity.dart';

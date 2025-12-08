@@ -1,4 +1,4 @@
-group 'com.example.flutter_z_location'
+group 'com.example.flutter_z_location_mz'
 version '1.0'
 
 buildscript {

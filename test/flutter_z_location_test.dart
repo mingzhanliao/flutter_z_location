@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_z_location/flutter_z_location_method_channel.dart';
-import 'package:flutter_z_location/flutter_z_location_platform_interface.dart';
+import 'package:flutter_z_location_mz/flutter_z_location_method_channel.dart';
+import 'package:flutter_z_location_mz/flutter_z_location_platform_interface.dart';
 
 // class MockFlutterZLocationPlatform
 //     with MockPlatformInterfaceMixin

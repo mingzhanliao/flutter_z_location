@@ -1,4 +1,4 @@
-package com.example.flutter_z_location;
+package com.example.flutter_z_location_mz;
 
 import android.location.Criteria;
 import android.location.Location;

@@ -1,7 +1,7 @@
-name: flutter_z_location
+name: flutter_z_location_mz
 description: A new GPS and IP Location library.
-version: 0.0.9
-homepage: https://github.com/zenganiu/flutter_z_location
+version: 0.1.0
+homepage: https://github.com/zenganiu/flutter_z_location_mz
 
 environment:
   sdk: '>=2.19.6 <4.0.0'
@@ -22,7 +22,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.example.flutter_z_location
+        package: com.example.flutter_z_location_mz
         pluginClass: FlutterZLocationPlugin
       ios:
         pluginClass: FlutterZLocationPlugin

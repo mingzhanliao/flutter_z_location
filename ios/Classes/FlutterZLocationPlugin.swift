@@ -6,7 +6,7 @@ public class FlutterZLocationPlugin: NSObject, FlutterPlugin {
     var sysLocationManger: CLLocationManager?
     var locationResult: FlutterResult?
     public static func register(with registrar: FlutterPluginRegistrar) {
-        let channel = FlutterMethodChannel(name: "flutter_z_location", binaryMessenger: registrar.messenger())
+        let channel = FlutterMethodChannel(name: "flutter_z_location_mz", binaryMessenger: registrar.messenger())
         let instance = FlutterZLocationPlugin()
         registrar.addMethodCallDelegate(instance, channel: channel)
     }

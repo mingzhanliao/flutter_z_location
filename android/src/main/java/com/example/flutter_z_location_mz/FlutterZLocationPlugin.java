@@ -1,4 +1,4 @@
-package com.example.flutter_z_location;
+package com.example.flutter_z_location_mz;
 
 import static android.content.pm.PackageManager.PERMISSION_GRANTED;
 
@@ -45,7 +45,7 @@ public class FlutterZLocationPlugin implements FlutterPlugin, MethodCallHandler,
 
     @Override
     public void onAttachedToEngine(@NonNull FlutterPluginBinding flutterPluginBinding) {
-        channel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), "flutter_z_location");
+        channel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), "flutter_z_location_mz");
         channel.setMethodCallHandler(this);
     }
 

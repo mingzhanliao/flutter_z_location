@@ -1,10 +1,10 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_z_location/flutter_z_location_method_channel.dart';
+import 'package:flutter_z_location_mz/flutter_z_location_method_channel.dart';
 
 void main() {
   MethodChannelFlutterZLocation platform = MethodChannelFlutterZLocation();
-  const MethodChannel channel = MethodChannel('flutter_z_location');
+  const MethodChannel channel = MethodChannel('flutter_z_location_mz');
 
   TestWidgetsFlutterBinding.ensureInitialized();
 

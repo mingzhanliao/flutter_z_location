@@ -1,5 +1,5 @@
-# flutter_z_location
-[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/zenganiu/flutter_z_location)
+# flutter_z_location_mz
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/zenganiu/flutter_z_location_mz)
 ## **Flutter开源免费定位插件**
 * 现如今几乎每一个 App 都存在定位的逻辑，方便更好的推荐产品或服务，获取当前设备的经纬度、所在城市几乎是必备的功能了！iOS定位经纬度及反向地理编码原生均能很好实现。然而Android由于系统原因，反向地理编码获取地址信息需要使用谷歌服务。大多需要依赖高德/百度三方定位库实现该功能。
 * 本项目是Flutter定位插件，支持获取经纬度及经纬度、ip反向地理编码获取地址信息(省、市、区)，纯原生获取GPS定位信息。反向地理编码获取地址信息均来自本地，没有并发限制、次数限制且无收费。
@@ -16,7 +16,7 @@
 ```yaml
 dependencies:
   # 最新版本
-  flutter_z_location: ^0.0.7
+  flutter_z_location_mz: ^0.1.0
 ```
 
 ## Android端配置
@@ -46,7 +46,7 @@ dependencies:
 目前五个文件夹必须在同一级目录，如果您的资源目录结构不一致，对应设置`pathHead`参数即可
 * 详细使用请参考项目`example`用例，下面只列出常用方法
 ```dart
-import 'package:flutter_z_location/flutter_z_location.dart';
+import 'package:flutter_z_location_mz/flutter_z_location_mz.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 // 获取GPS定位经纬度

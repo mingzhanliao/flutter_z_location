@@ -7,7 +7,7 @@ import 'flutter_z_location_platform_interface.dart';
 class MethodChannelFlutterZLocation extends FlutterZLocationPlatform {
   /// The method channel used to interact with the native platform.
   @visibleForTesting
-  final methodChannel = const MethodChannel('flutter_z_location');
+  final methodChannel = const MethodChannel('flutter_z_location_mz');
 
   @override
   Future<String?> getPlatformVersion() async {

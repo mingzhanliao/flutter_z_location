@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:flutter_z_location/flutter_z_location.dart';
+import 'package:flutter_z_location_mz/flutter_z_location_mz.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 void main() {
